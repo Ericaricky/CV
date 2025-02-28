@@ -1,1 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bienvenue - Générateur de CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fichier CSS dédié à la page d'accueil -->
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container-fluid py-4">
+    <header class="text-center mb-5 text-white">
+      <h1>Bienvenue chez nous !</h1>
+      <p>Découvrez nos services de générateur de CV interactif.<br>
+         Créez, personnalisez et téléchargez votre CV en quelques clics.</p>
+    </header>
 
+    <!-- Section présentant 6 CV de base en 3 colonnes (col-md-4) -->
+    <section class="cv-examples container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- CV VERT -->
+        <div class="col">
+          <div class="cv-example d-flex">
+            <!-- Colonne gauche -->
+            <div class="cv-left cv-green p-2">
+              <div class="text-center mb-2">
+                <img src="image/team4.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+                <h3 class="mt-2">Marie Dupont</h3>
+                <h5>Aide-soignante</h5>
+              </div>
+              <hr>
+              <div class="mb-2">
+                <h6>CONTACT</h6>
+                <ul>
+                  <li>06 12 34 56 78</li>
+                  <li>marie.dupont@example.com</li>
+                  <li>Paris, France</li>
+                </ul>
+              </div>
+              <div class="mb-2">
+                <h6>LANGUES</h6>
+                <ul>
+                  <li>Français</li>
+                  <li>Anglais</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Colonne droite -->
+            <div class="cv-right p-2">
+              <div class="mb-2">
+                <h4>PROFIL PROFESSIONNEL</h4>
+                <p>Aide-soignante passionnée par l’accompagnement des personnes âgées…</p>
+              </div>
+              <div class="mb-2">
+                <h4>EXPÉRIENCES</h4>
+                <p><strong>Jan 2021 - Présent</strong><br>Établissement X - Aide-soignante</p>
+              </div>
+              <div class="mb-2">
+                <h4>FORMATION</h4>
+                <p>Diplôme d'État d'Aide-Soignant (2018)</p>
+              </div>
+              <div>
+                <h4>COMPÉTENCES</h4>
+                <ul>
+                  <li>Soins de base</li>
+                  <li>Gestion du stress</li>
+                </ul>
+              </div>
+              <button style="background-color: rgb(62, 220, 62); border-radius: 30px;"><a href="generator.html">creer</a></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV ROUGE -->
+        <div class="col">
+
+          <div class="cv-example d-flex">
+            <div class="cv-left cv-red p-2">
+              <div class="text-center mb-2">
+                <img src="image/team1.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+                <h3 class="mt-2">Marie Durand</h3>
+                <h5>Graphiste</h5>
+              </div>
+              <hr>
+              <div class="mb-2">
+                <h6>CONTACT</h6>
+                <ul>
+                  <li>06 12 34 56 78</li>
+                  <li>marie.durand@example.com</li>
+                  <li>Lyon, France</li>
+                </ul>
+              </div>
+              <div class="mb-2">
+                <h6>LANGUES</h6>
+                <ul>
+                  <li>Français</li>
+                  <li>Anglais</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cv-right p-2">
+              <div class="mb-2">
+                <h4>PROFIL PROFESSIONNEL</h4>
+                <p>Graphiste créative et passionnée par le design…</p>
+              </div>
+              <div class="mb-2">
+                <h4>EXPÉRIENCES</h4>
+                <p><strong>2016 - 2021</strong><br>ABC Design - Designer</p>
+              </div>
+              <div class="mb-2">
+                <h4>FORMATION</h4>
+                <p>Licence en Arts Graphiques (2015)</p>
+              </div>
+              <div>
+                <h4>COMPÉTENCES</h4>
+                <ul>
+                  <li>Photoshop (Expert)</li>
+                  <li>Illustrator (Avancé)</li>
+                </ul>
+              </div>
+              <button style="background-color: red; border-radius: 30px;"><a href="generator.html"> creer</a></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV ROSE -->
+        <div class="col">
+          <div class="cv-example d-flex">
+            <div class="cv-left cv-pink p-2">
+              <div class="text-center mb-2">
+                <img src="image/team2.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+                <h3 class="mt-2">Sophie Martin</h3>
+                <h5>Chef de Projet</h5>
+              </div>
+              <hr>
+              <div class="mb-2">
+                <h6>CONTACT</h6>
+                <ul>
+                  <li>07 89 01 23 45</li>
+                  <li>sophie.martin@example.com</li>
+                  <li>Marseille, France</li>
+                </ul>
+              </div>
+              <div class="mb-2">
+                <h6>LANGUES</h6>
+                <ul>
+                  <li>Français</li>
+                  <li>Espagnol</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cv-right p-2">
+              <div class="mb-2">
+                <h4>PROFIL PROFESSIONNEL</h4>
+                <p>Experte en gestion de projet IT avec 5 ans d’expérience…</p>
+              </div>
+              <div class="mb-2">
+                <h4>EXPÉRIENCES</h4>
+                <p><strong>2014 - 2019</strong><br>Tech Solutions - Chef de Projet</p>
+              </div>
+              <div class="mb-2">
+                <h4>FORMATION</h4>
+                <p>MBA (2013) - HEC Paris</p>
+              </div>
+              <div>
+                <h4>COMPÉTENCES</h4>
+                <ul>
+                  <li>Gestion de projet</li>
+                  <li>Communication</li>
+                </ul>
+              </div>
+              <button style="background-color:pink; border-radius: 30px;"><a href="generator.html"> hello</a></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV BLEU -->
+        <div class="col">
+          <div class="cv-example d-flex">
+            <div class="cv-left cv-blue p-2">
+              <div class="text-center mb-2">
+                <img src="image/team3.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+                <h3 class="mt-2">Thomas Leroy</h3>
+                <h5>Ingénieur Logiciel</h5>
+              </div>
+              <hr>
+              <div class="mb-2">
+                <h6>CONTACT</h6>
+                <ul>
+                  <li>05 67 89 01 23</li>
+                  <li>thomas.leroy@example.com</li>
+                  <li>Bordeaux, France</li>
+                </ul>
+              </div>
+              <div class="mb-2">
+                <h6>LANGUES</h6>
+                <ul>
+                  <li>Français</li>
+                  <li>Anglais</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cv-right p-2">
+              <div class="mb-2">
+                <h4>PROFIL PROFESSIONNEL</h4>
+                <p>Innovateur dans le développement de solutions logicielles…</p>
+              </div>
+              <div class="mb-2">
+                <h4>EXPÉRIENCES</h4>
+                <p><strong>2012 - 2018</strong><br>SoftTech - Ingénieur Logiciel</p>
+              </div>
+              <div class="mb-2">
+                <h4>FORMATION</h4>
+                <p>Ingénieur Informatique (2011)</p>
+              </div>
+              <div>
+                <h4>COMPÉTENCES</h4>
+                <ul>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>C++</li>
+                </ul>
+              </div>
+              <button style="background-color:blue; border-radius: 30px;"><a href="generator.html"> creer</a></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV VIOLET -->
+        <div class="col">
+          <div class="cv-example d-flex">
+            <div class="cv-left cv-violet p-2">
+              <div class="text-center mb-2">
+                <img src="image/team5.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+                <h3 class="mt-2">Clara Bernard</h3>
+                <h5>Marketing Digital</h5>
+              </div>
+              <hr>
+              <div class="mb-2">
+                <h6>CONTACT</h6>
+                <ul>
+                  <li>08 12 34 56 78</li>
+                  <li>clara.bernard@example.com</li>
+                  <li>Nantes, France</li>
+                </ul>
+              </div>
+              <div class="mb-2">
+                <h6>LANGUES</h6>
+                <ul>
+                  <li>Français</li>
+                  <li>Anglais</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cv-right p-2">
+              <div class="mb-2">
+                <h4>PROFIL PROFESSIONNEL</h4>
+                <p>Experte en stratégies de marketing en ligne…</p>
+              </div>
+              <div class="mb-2">
+                <h4>EXPÉRIENCES</h4>
+                <p><strong>2017 - 2020</strong><br>MarketPro - Spécialiste Digital</p>
+              </div>
+              <div class="mb-2">
+                <h4>FORMATION</h4>
+                <p>Master en Marketing (2016)</p>
+              </div>
+              <div>
+                <h4>COMPÉTENCES</h4>
+                <ul>
+                  <li>SEO</li>
+                  <li>SEM</li>
+                  <li>Social Media</li>
+                </ul>
+              </div>
+              <button style="background-color:purple; border-radius: 30px;"><a href="generator.html"> creer</a></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV NOIR -->
+        <div class="col">
+          <div class="cv-example d-flex">
+            <div class="cv-left cv-black p-2">
+              <div class="text-center mb-2">
+                <img src="image/team4.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+                <h3 class="mt-2 text-white">Alex Moreau</h3>
+                <h5 class="text-white">Directeur Général</h5>
+              </div>
+              <hr class="text-white">
+              <div class="mb-2 text-white">
+                <h6>CONTACT</h6>
+                <ul>
+                  <li>09 87 65 43 21</li>
+                  <li>alex.moreau@example.com</li>
+                  <li>Lille, France</li>
+                </ul>
+              </div>
+              <div class="mb-2 text-white">
+                <h6>LANGUES</h6>
+                <ul>
+                  <li>Français</li>
+                  <li>Anglais</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cv-right p-2">
+              <div class="mb-2">
+                <h4>PROFIL PROFESSIONNEL</h4>
+                <p>Leader expérimenté dans la gestion d'entreprises internationales…</p>
+              </div>
+              <div class="mb-2">
+                <h4>EXPÉRIENCES</h4>
+                <p><strong>2008 - 2018</strong><br>GlobalCorp - Directeur Général</p>
+              </div>
+              <div class="mb-2">
+                <h4>FORMATION</h4>
+                <p>MBA (2007) - Harvard Business School</p>
+              </div>
+              <div>
+                <h4>COMPÉTENCES</h4>
+                <ul>
+                  <li>Management</li>
+                  <li>Stratégie</li>
+                </ul>
+              </div>
+              <button style="background-color:black; border-radius: 30px;"><a href="generator.html"> creer</a></button>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </section>
+
+    <div class="text-center mt-5">
+      <a href="generator.html" class="btn btn-primary btn-lg">Accéder au générateur de CV</a>
+    </div>
+  </div>
+
+  <!-- Script JS (optionnel) -->
+  <script src="login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
