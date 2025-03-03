@@ -1,0 +1,80 @@
+/* register.css */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #667eea;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a67d8;
+}
+
+/* register.css */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #667eea;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a67d8;
+}
+
+/* register.css */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #667eea;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a67d8;
+}

@@ -1,0 +1,113 @@
+
+/* login.css */
+
+/* Un fond en dégradé pour la page d'accueil */
+body {
+    background: linear-gradient(135deg, #f8cdda, #1c1c1c);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Titres */
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  
+  /* Ajustement du conteneur global */
+  .container-fluid {
+    min-height: 100vh;
+  }
+  
+  /* Disposition des CV (cartes plus compactes) */
+  .cv-example {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f8f9fa; /* Colonne droite par défaut */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    min-height: 280px; /* Hauteur minimale réduite */
+    font-size: 0.85rem; /* Police légèrement plus petite */
+  }
+  
+  /* Colonne gauche */
+  .cv-left {
+    width: 40%; /* Un peu plus étroite */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Colonne droite */
+  .cv-right {
+    width: 60%;
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  /* Ajustement de la taille de l'image */
+  .cv-left img {
+    max-width: 70px;
+    height: auto;
+  }
+  
+  /* En-têtes de la colonne gauche */
+  .cv-left h3, .cv-left h5, .cv-left h6 {
+    margin: 0;
+  }
+  
+  /* Listes sans puces et marges */
+  .cv-left ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  /* Couleurs pour chaque CV (colonne gauche) */
+  .cv-green {
+    background-color: #28a745;
+  }
+  .cv-red {
+    background-color: #dc3545;
+  }
+  .cv-pink {
+    background-color: #e83e8c;
+  }
+  .cv-blue {
+    background-color: #007bff;
+  }
+  .cv-violet {
+    background-color: #6f42c1;
+  }
+  .cv-black {
+    background-color: #343a40;
+  }
+  
+  /* Texte blanc sur fond foncé */
+  .cv-black .text-white,
+  .cv-black h3,
+  .cv-black h5,
+  .cv-black h6,
+  .cv-black hr {
+    color: #fff !important;
+  }
+  .text-white ul li {
+    color: #fff !important;
+  }
+  
+  /* Adaptation sur mobiles */
+  @media (max-width: 768px) {
+    .cv-example {
+      flex-direction: column;
+      min-height: auto;
+    }
+    .cv-left, .cv-right {
+      width: 100% !important;
+    }
+  }
+  

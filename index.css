@@ -1,0 +1,64 @@
+/* generator.css */
+
+/* Style global */
+body {
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: Arial, sans-serif;
+  }
+ 
+  i{
+    font-size: .7em;
+    margin-inline: 10px;
+  }
+  /* Formulaire de saisie */
+  #cvForm {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Prévisualisation du CV */
+  #cvPreview {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Prévisualisation - colonne gauche */
+  .cv-left-preview {
+    background-color: #28a745; /* Couleur de fond par défaut pour la partie gauche */ 
+    color: #fff;
+    border-radius: 8px 0 0 8px;
+    
+    
+  }
+  
+  /* Prévisualisation - colonne droite */
+  .cv-right-preview {
+    background-color: #fff;
+    color: #000;
+    
+  }
+  
+  /* Titres et textes */
+  h2, h3, h4, h6 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Adaptation sur mobiles */
+  @media (max-width: 768px) {
+    #cvPreview .row {
+      flex-direction: column;
+    }
+    .cv-left-preview, .cv-right-preview {
+      width: 100% !important;
+    }
+  }
+  /* button pour telecharger*/
+  .downloadBtn{
+    align-items: center;
+    margin-right: 20px;
+  }
+  
